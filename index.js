@@ -70,7 +70,7 @@ bot.on("message", function (message) {
         case "temizle":
             async function purge() {
                 message.delete();
-                if (!message.member.roles.find("name", "ADMİN")) {
+                if (!message.member.roles.find("name", "SUSAM")) {
                     message.channel.send('Mesajları temizlemek için \`ADMİN\` rolüne sahip olman gerek.');
                     return;
                 }
