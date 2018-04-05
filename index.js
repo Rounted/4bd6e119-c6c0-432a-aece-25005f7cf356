@@ -40,7 +40,7 @@ bot.on("ready", function () {
 
 bot.on("guildMemberAdd", function (member) {
 
-    member.guild.channels.find('name','sohbet').sendMessage(member.toString() + " Hoşgeldin! Susamlanmaya Hazır Ol! ");
+    member.guild.channels.find('name','hosgeldiniz').sendMessage(member.toString() + " Hoşgeldin! Susamlanmaya Hazır Ol! ");
 });
 
 bot.on("message", function (message) {
